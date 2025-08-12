@@ -6,5 +6,6 @@ public class Main {
     TodoManager manager = new TodoManagerImpl();
 
     manager.create("Первая задача", false);
+    manager.delete(1);
   }
 }
