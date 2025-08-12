@@ -2,9 +2,9 @@ package org.example;
 
 public class Main {
 
-
   public static void main(String[] args) {
-    var a = 5;
+    TodoManager manager = new TodoManagerImpl();
 
+    manager.create("Первая задача", false);
   }
 }
