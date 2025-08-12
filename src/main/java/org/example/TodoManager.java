@@ -10,4 +10,6 @@ package org.example;
 public interface TodoManager {
 
   void create(String title, boolean isCompleted);
+
+  void delete(Integer id);
 }
