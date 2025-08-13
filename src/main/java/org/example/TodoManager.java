@@ -1,6 +1,8 @@
 package org.example;
 
 
+import java.util.Date;
+
 /**
 * Интерфейс для менеджера задач
 *
@@ -9,7 +11,7 @@ package org.example;
 */
 public interface TodoManager {
 
-  void create(String title, boolean isCompleted);
+  void create(String title, boolean isCompleted, Date date);
 
   void delete(Integer id);
 }
